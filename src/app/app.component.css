@@ -1,0 +1,25 @@
+.nav-link {
+    color: aliceblue;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    text-decoration: none;
+}
+
+.li {
+    color: aliceblue;
+}
+
+.navbar-brand {
+    color: aliceblue;
+}
+.btn {
+    background-color: beige;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    background-color: #000;
+    z-index: 100;
+}
