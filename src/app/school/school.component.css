@@ -1,0 +1,132 @@
+h1 {
+    color: aliceblue;
+    text-shadow: 100rem;
+  }
+  
+  p {
+    color: aliceblue;
+    text-shadow: 100rem;
+  }
+  
+  .date {
+    font-size: 800%;
+  }
+  
+  .caption {
+    font-size: 200%;
+    z-index: 3;
+  }
+  
+  .carousel{
+    margin-bottom: -20%;
+  }
+  .cover {
+    background-image: url('https://zupimages.net/up/22/38/bws7.jpg');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    height: 46rem;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .jumbotron {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+  }
+  
+  .effect {
+    position: relative;
+    top: 10%;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+  }
+  
+  @media screen and (max-width: 530px) {
+    article {
+      width: 370px;
+      flex-direction: row-reverse;
+      padding-right: 10%;
+      margin-left: 20px;
+      margin-top: 15%;
+      display: flex;
+      flex-shrink: 1;
+    }
+  
+  
+  article:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  
+  .text {
+    width: 330px;
+    min-height: 100px;
+    box-sizing: border-box;
+    text-align: right;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: flex-start;
+    line-height: 1.5;
+  }
+  
+  .text {
+    width: 250px;
+    padding-left: 5px;
+    padding-right: 10px;
+    text-align: left;
+  }
+  
+  .titletimeline {
+    font-size: 1.2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 5px;
+    color: black;
+  }
+  
+  h2 {
+    font-size: 0.8em;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    line-height: 1.5;
+  }
+  
+  .texttimeline {
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.8em;
+    margin: 0;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .image {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+    border: solid 5px #e9ecef;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin: 20px;
+    margin-top: 0px;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .image::after {
+    position: absolute;
+    top: 73px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1px;
+    height: 350%;
+  }
+  
+  }

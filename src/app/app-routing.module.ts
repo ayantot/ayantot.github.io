@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomepageComponent } from './homepage/homepage.component';
+import { SchoolComponent } from './school/school.component';
 import { WhoIamComponent } from './who-iam/who-iam.component';
 
 const routes: Routes = [
@@ -8,6 +9,7 @@ const routes: Routes = [
     { path: '', redirectTo: 'homepage', pathMatch: 'full'},
     { path: 'homepage', component: HomepageComponent},
     {path: 'whoiam', component: WhoIamComponent, pathMatch: 'full'},
+    {path: 'school', component: SchoolComponent, pathMatch: 'full'},
 ];
 
 @NgModule({
