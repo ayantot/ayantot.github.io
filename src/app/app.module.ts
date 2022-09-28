@@ -7,13 +7,15 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HomepageComponent } from './homepage/homepage.component';
 import { WhoIamComponent } from './who-iam/who-iam.component';
 import { SchoolComponent } from './school/school.component';
+import { WorkComponent } from './work/work.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
     WhoIamComponent,
-    SchoolComponent
+    SchoolComponent,
+    WorkComponent
   ],
   imports: [
     BrowserModule,
