@@ -1,0 +1,62 @@
+<!--integrate a cover with text for title-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!--jQuery library-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!--Latest compiled and minified JavaScript-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<div class="cover">
+    <div class="container jumbotron col-sm-6 col-sm-offset-3" style="position:absolute;left:0%;top:15%;">
+        <h2 class="title">Bienvenue sur mon CV en ligne</h2>
+        <h3 class="subtitle">Et si on apprenait à se connaitre ?</h3>
+        <br />
+    </div>
+</div>
+
+<!--integrate cards for summary-->
+<div class="row row-card">
+    <div class="col-3 col-sm-3 col-xs-12">
+        <div class="card mx-auto" routerLink="/whoiam" style="width: 30rem">
+            <img src="https://zupimages.net/up/22/37/lexd.png" style="width: 18rem" class="card-img-top mx-auto"
+                alt="profil">
+            <div class="card-body mx-auto text-center">
+                <h3 class="card-title">Qui suis-je ?</h3>
+                <p class="card-text" routerLink="whoiam">Venez découvir mon profil, mes motivations.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-3 col-sm-3 col-xs-12">
+        <div class="card mx-auto" routerLink="/school" style="width: 30rem">
+            <img src="https://zupimages.net/up/22/37/df05.png" style="width: 14rem" class="card-img-top mx-auto"
+                alt="school">
+            <div class="card-body mx-auto text-center">
+                <h3 class="card-title">Mon Cursus</h3>
+                <p class="card-text">Mon parcours, mes diplômes et formations.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-3 col-sm-3 col-xs-12">
+        <div class="card mx-auto" routerLink="/work" style="width: 30rem">
+            <img src="https://zupimages.net/up/22/38/u1f9.png" style="width: 19rem" class="card-img-top mx-auto"
+                alt="work">
+            <div class="card-body mx-auto text-center">
+                <h3 class="card-title">Mes expériences</h3>
+                <p class="card-text">Découvrez mes différentes expériences.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-3 col-sm-3 col-xs-12">
+        <div class="card mx-auto" routerLink="/contact" style="width: 30rem">
+            <img src="https://zupimages.net/up/22/38/rhva.jpg" style="width: 19rem" class="card-img-top mx-auto"
+                alt="work">
+            <div class="card-body mx-auto text-center">
+                <h3 class="card-title">Contact</h3>
+                <p class="card-text">Contactez moi pour échanger.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--router-->
+<router-outlet></router-outlet>
