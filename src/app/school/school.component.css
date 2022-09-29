@@ -5,21 +5,9 @@ h1 {
   
   p {
     color: aliceblue;
-    text-shadow: 100rem;
+    font-size: 120%;
   }
   
-  .date {
-    font-size: 800%;
-  }
-  
-  .caption {
-    font-size: 200%;
-    z-index: 3;
-  }
-  
-  .carousel{
-    margin-bottom: -20%;
-  }
   .cover {
     background-image: url('https://zupimages.net/up/22/38/bws7.jpg');
     background-position: center;
@@ -129,4 +117,9 @@ h1 {
     height: 350%;
   }
   
+  }
+
+  .card{
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
