@@ -317,7 +317,7 @@ textarea{
 @media all and (orientation: portrait) {
     .card{
         margin-top: 10%;
-        align-items: left;
+        /* margin-left: -1%; */
         margin-bottom: 5%;
         
     }

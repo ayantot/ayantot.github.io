@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg bg-dark navbar-fixed-top text-center">
+<nav class="navbar navbar-expand-lg bg-dark navbar-fixed-top text-center hidden-xs">
   <div class="container-fluid">
     <a class="navbar-brand col-2 col-sm-2 col-xs-3" routerLink="homepage">TEGNY Thomas</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -33,6 +33,24 @@
       </ul>
     </div>
   </div>
+</nav>
+<nav class="menu hidden-lg hidden-sm hidden-xl" tabindex="0">
+	<div class="smartphone-menu-trigger"></div>
+	<ul>
+    <li tabindex="0" class="icon-dashboard" routerLink="homepage"><span>Accueil</span></li>
+    <li tabindex="0" class="icon-customers" routerLink="whoiam"><span>Qui suis-je ?</span></li>
+    <li tabindex="0" class="icon-users" routerLink="school"><span>Scolaire</span></li>
+    <li tabindex="0" class="icon-settings" routerLink="work"><span>Expériences</span></li>
+    <li tabindex="0" class="icon-settings" routerLink="contact"><span>Contact</span></li>
+    <li tabindex="0" class="icon-github">
+      <a class="btn btn-outline-success" target="https://github.com/ayantot" href="https://github.com/ayantot"><i
+          class="fa-brands fa-github-square"></i></a>
+    </li>
+    <li tabindex="0" class="icon-linkedin">
+      <a class="btn btn-outline-success" target="https://www.linkedin.com/in/thomas-tegny/" href="https://www.linkedin.com/in/thomas-tegny/"><i
+          class="fa-brands fa-linkedin"></i></a>
+    </li>
+  </ul>
 </nav>
 <footer class="footer">
   <h5 class="text-center">&copy; TEGNY Thomas</h5>
